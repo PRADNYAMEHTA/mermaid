@@ -142,6 +142,15 @@ flowchart LR
 flowchart TD
     id1[/This is the text in the box/]
 ```
+                        Device 1
+                       /        \
+             Model Update     Model Update
+             /                  \
+        Device 2            Device 3
+        /       \              /       \
+Model Update  Model Update  Model Update  Model Update
+   /               \           /              \
+Device 4       Device 5    Device 6        Device 7
 
 ### Parallelogram alt
 
